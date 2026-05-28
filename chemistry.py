@@ -1,3 +1,5 @@
+#Added function that return the the full names of elements in formula
+
 from formula import parse_formula
 def main():
     formula = input("Enter formula : ")
@@ -14,6 +16,8 @@ def main():
     number_of_moles = sample_size / molar_mass
 
     print(round(number_of_moles, 5), " moles")
+
+    element_full_name(parsed, periodic_table)
 
 def make_periodic_table():
     periodic_table_dict = {
@@ -135,6 +139,18 @@ def compute_molar_mass(symbol_quantity, periodic_table_dict):
                 mass = (value[1] * m)
                 total_mass += mass
     return total_mass
+
+def element_full_name(symbols_list, periodic_table):
+
+    p = symbols_list
+    print("Element full name(s): ")
+    for i in p:
+        e = i[0]
+
+        for key, value in periodic_table.items():
+            if key == e:
+                element = (value[0])
+                print("     ",e," => ",element)
         
     
 if __name__ == "__main__":

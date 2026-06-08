@@ -1,6 +1,7 @@
 import csv
 import re
 from datetime import datetime
+
 def main():
     """
     Purpose : Manage an online database with multiple records of different schools and countries
@@ -26,7 +27,10 @@ def main():
     #save the dictionary to te file
     
     #2 add student
-    add_student(student_records,FILE)
+    #add_student(student_records,FILE)
+
+    #3 delete student
+    del_student(student_records,FILE)
 
 #read the csv file and create a dictionary
 def read_csv(file, key_column):
@@ -58,8 +62,12 @@ def add_student(dictionary, file):
         while not valid:
             # get email
             email = input("1/11\nEnter Email address : ")
+            #format to lower
+            email = email.lower()
+            
             #common email pattern
             pattern = r'[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$'
+            
             if re.fullmatch(pattern, email):
                 #check if email already exits
                 if email in dictionary:
@@ -80,27 +88,37 @@ def add_student(dictionary, file):
                 break
         return user_input
 
-    email = email.lower(valid_email())
+    email = valid_email()
+    name = not_empty("2/11\nFull name : ", "Full name cannot be empty!")
+    dob = not_empty("3/11\nEnter Date Of Birth (dd-mm-yyyy) : ", "Date of Birth cannot be empty!")
+    gender = not_empty("4/11\nGender (F / M) : ", "Gender cannot be empty!") 
+    nationality = not_empty("5/11\nNationality (Zimbabwean) : ", "Nationality cannot be empty!")  
+    phone = not_empty("6/11\nYour Phone number (263 00 000 0000): ", "Phone Number cannot be empty!")  
+    address = not_empty("7/11\nEnter you physical address : ", "Address cannot be empty! ")  
+    emergency_contact = not_empty("8/11\nName of Emergency Contact : ", "Emergency contact name cannot be empty!") 
+    emergency_phone = not_empty("9/11\nEmergency Contact Phone number : ", "Emergency Contact Phone number cannot be empty")  
+    school  =  not_empty("10/11\nSchool Name: " , "School cannot be empty!")
+    form = not_empty("11/11\nForm (Form 1 - 6) : ", "Form cannot be empty!") 
+    now = datetime.now()
+    created_at = now.strftime("%m/%d/%Y %I:%M %p")
     
-    # name = not_empty("2/11\nFull name : ", "Full name cannot be empty!")
-    # dob = not_empty("3/11\nEnter Date Of Birth (dd-mm-yyyy) : ", "Date of Birth cannot be empty!")
-    # gender = not_empty("4/11\nGender (F / M) : ", "Gender cannot be empty!") 
-    # nationality = not_empty("5/11\nNationality (Zimbabwean) : ", "Nationality cannot be empty!")  
-    # phone = not_empty("6/11\nYour Phone number (263 00 000 0000): ", "Phone Number cannot be empty!")  
-    # address = not_empty("7/11\nEnter you physical address : ", "Address cannot be empty! ")  
-    # emergency_contact = not_empty("8/11\nName of Emergency Contact : ", "Emergency contact name cannot be empty!") 
-    # emergency_phone = not_empty("9/11\nEmergency Contact Phone number : ", "Emergency Contact Phone number cannot be empty")  
-    # school  =  not_empty("10/11\nSchool Name: " , "School cannot be empty!")
-    # form = not_empty("11/11\nForm (Form 1 - 6) : ", "Form cannot be empty!") 
-    # now = datetime.now()
-    # created_at = now.strftime("%m/%d/%Y %I:%M %p")
-    
-    #Add users to file
-    # with open(file, "a", encoding="utf-8-sig") as records:
-    #     records.write(f"{email},{name},{dob},{gender},{nationality},{phone},{address},{emergency_contact},{emergency_phone},{school},{form},{created_at} \n")
-    #     print("Successfully added student")
+    # Add users to file
+    with open(file, "a", encoding="utf-8-sig") as records:
+        records.write(f"{email},{name},{dob},{gender},{nationality},{phone},{address},{emergency_contact},{emergency_phone},{school},{form},{created_at} \n")
+        print("Successfully added student")
         #show progress
+
+def del_student(dictionary, File):
+    delete = False
     
+    while not delete:
+        email = input("Enter the student email to delete :")
+        if email in File:
+            print("found it")
+            
+            break
+        else:
+            print("Email not found") 
        
 
 if __name__ == "__main__":

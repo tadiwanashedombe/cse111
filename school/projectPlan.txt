@@ -1,0 +1,5 @@
+started  @ 2.04
+
+looked on how to sort dictionary
+ looked into lambda
+ 

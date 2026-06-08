@@ -26,6 +26,7 @@ doing any of the following:
    Date       (hours)   Description of Work
 ----------  ----------  -------------------------
 2026-06-04      .6      created and cleaned csv file with student records
+2026-06-08     1.183    created read_csv, show_records functions. Looked into sorting dictionary values in order
 
 
 2. In Canvas, submit this completed text file, your Python program, your

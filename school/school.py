@@ -30,7 +30,13 @@ def main():
     #add_student(student_records,FILE)
 
     #3 delete student
-    del_student(student_records,FILE)
+    #del_student(student_records,FILE)
+
+    # 4 Edit record
+    #edit_record(student_records,FILE)
+
+    # 5 Specific record
+    find_record(student_records)
 
 #read the csv file and create a dictionary
 def read_csv(file, key_column):
@@ -113,13 +119,95 @@ def del_student(dictionary, File):
     
     while not delete:
         email = input("Enter the student email to delete :")
-        if email in File:
-            print("found it")
+        if email in dictionary:
+            del dictionary[email]
             
+            #clear file 
+            with open(File, "w") as newfile:
+                newfile.write("email,full_name,dob,gender,nationality,phone,address,emergency_contact,emergency_phone,school,form,created_at\n")
+                for value in dictionary.items():
+                    value = value[1]
+                    newfile.write(f"{value[0]}, {value[1]}, {value[2]}, {value[3]}, {value[4]}, {value[5]}, {value[6]}, {value[7]}, {value[8]}, {value[9]}, {value[10]}, {value[11]}\n")
+            print("Record Deleted !")
             break
         else:
             print("Email not found") 
-       
+def edit_record(dictionary,File):
+    edit = False
+    while not edit:
+        email = input("Enter the student email to edit :")
+        if email in dictionary:
+
+            value = dictionary[email]
+            #show option
+            print("Choose which field to edit using numbers")
+            print(f"1.Email : {value[0]}\n 2.Name : {value[1]}\n 3.Date Of Birth: {value[2]}\n 4.Gender : {value[3]}\n 5.Nationality : {value[4]}\n 6.Phone : {value[5]}\n 7.Address : {value[6]}\n 8.Emergency Contact : {value[7]}\n 9.Emergency Contact Phone : {value[8]}\n 10.School : {value[9]}\n 11.Form : {value[10]}")
+            field =(input("Which field  would you like to edit (1-11) : "))
+
+            ###edit field
+            if field == "1":
+                new = input("New Email: ")
+                value[0] = new
+            elif field == "2":
+                new = input("New Name: ")
+                value[1] = new
+            elif field == "3":
+                new = input("New Date Of Birth: ")
+                value[2] = new
+            elif field == "4":
+                new = input("New Gender: ")
+                value[3] = new
+            elif field == "5":
+                new = input("New Nationality: ")
+                value[4] = new
+            elif field == "6":
+                new = input("New Phone: ")
+                value[5] = new
+            elif field == "7":
+                new = input("New Address: ")
+                value[6] = new
+            elif field == "8":
+                new = input("New Emergency Contact: ")
+                value[7] = new
+            elif field == "9":
+                new = input("New Emergency Contact Phone: ")
+                value[8] = new
+            elif field == "10":
+                new = input("New School: ")
+                value[9] = new
+            elif field == "11":
+                new = input("New Form: ")
+                value[10] = new
+            else:
+                print("Invalid Option")
+                
+    
+            #clear file 
+            with open(File, "w") as newfile:
+                #new header
+                newfile.write("email,full_name,dob,gender,nationality,phone,address,emergency_contact,emergency_phone,school,form,created_at\n")
+                #rewrite dictionary as newfile
+                for value in dictionary.items():
+                    value = value[1]
+                    newfile.write(f"{value[0]}, {value[1]}, {value[2]}, {value[3]}, {value[4]}, {value[5]}, {value[6]}, {value[7]}, {value[8]}, {value[9]}, {value[10]}, {value[11]}\n")
+            print("Record Edited !")
+            break
+        else:
+            print("Email not found") 
+
+def find_record(dictionary):
+    fount = False
+    while not fount:
+        email = input("Enter the student email :")
+        if email in dictionary:
+
+            value = dictionary[email]
+            #show option
+            print(f"\n1.Email : {value[0]}\n 2.Name : {value[1]}\n 3.Date Of Birth: {value[2]}\n 4.Gender : {value[3]}\n 5.Nationality : {value[4]}\n 6.Phone : {value[5]}\n 7.Address : {value[6]}\n 8.Emergency Contact : {value[7]}\n 9.Emergency Contact Phone : {value[8]}\n 10.School : {value[9]}\n 11.Form : {value[10]}")
+            break
+        else:
+            print("Email not found!")
+            break
 
 if __name__ == "__main__":
     main()

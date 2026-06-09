@@ -1,6 +1,6 @@
 import csv
-import re
 from datetime import datetime
+from validating import valid_email, not_empty
 
 def main():
     """
@@ -8,6 +8,7 @@ def main():
     """
     FILE = "records.csv"
     KEY_INDEX = 0
+    START = True
     print("Online School Database \n")
     
     options = """
@@ -18,25 +19,36 @@ def main():
     5.Find specific student
     """
     student_records = read_csv(FILE, KEY_INDEX)
-    #print(student_records)
-   # print(options)
-  #  action = int(input("What Would You like do to:"))
-    
-    #1 show records
-    #show_records(student_records)
-    #save the dictionary to te file
-    
-    #2 add student
-    #add_student(student_records,FILE)
+    print(options)
+    while START:
+        action = input("What Would You like do to (1-5) : ")
 
-    #3 delete student
-    #del_student(student_records,FILE)
+        if action == "1":
+            #1 show records
+            show_records(student_records)
+            START = False
+        elif action == "2" :
+            #2 add student
+            add_student(student_records,FILE)
+            START = False
 
-    # 4 Edit record
-    #edit_record(student_records,FILE)
+        elif action == "3":
+            #3 delete student
+            del_student(student_records,FILE)
+            START = False
 
-    # 5 Specific record
-    find_record(student_records)
+        elif action == "4":
+            # 4 Edit record
+            edit_record(student_records,FILE)
+            START = False
+
+        elif action == "5":
+            # 5 Specific record
+            find_record(student_records)
+            START = False
+
+        else:
+            print("Invalid option. Try again.\n")
 
 #read the csv file and create a dictionary
 def read_csv(file, key_column):
@@ -57,47 +69,17 @@ def show_records(dictionary):
     for value in sorted(dictionary.items(), key=lambda x: x[1] ):
         #format the records remove commas, square brackets
         value = value[1]
-        record = f"{value[0]} |{value[1]}  |{value[2]} |{value[3]} |{value[4]} |{value[5]} |{value[6]} |{value[7]} |{value[8]} |{value[9]} |{value[10]} |{value[11]} \n"
+        record = f"{value[0]} |{value[1]} |{value[2]} |{value[3]} |{value[4]} |{value[5]} |{value[6]} |{value[7]} |{value[8]} |{value[9]} |{value[10]} |{value[11]} \n"
         print(record)
 
 def add_student(dictionary, file):
     print("Please Enter the following records accordingly\n")
     #validate email
-    def valid_email():  
-        valid = False
-        while not valid:
-            # get email
-            email = input("1/11\nEnter Email address : ")
-            #format to lower
-            email = email.lower()
-            
-            #common email pattern
-            pattern = r'[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$'
-            
-            if re.fullmatch(pattern, email):
-                #check if email already exits
-                if email in dictionary:
-                    print("Email Already Exists")
-                break
-            else:
-                print(f"Invalid email ('{email}')")
-        return email
-    
-    #check for empty fields
-    def not_empty(prompt,error_msg):
-        valid = False
-        while not valid:
-            user_input = input(prompt)
-            if user_input == "":
-                print(error_msg)
-            else:
-                break
-        return user_input
 
-    email = valid_email()
+    email = f"1/11\n{valid_email(dictionary)}"
     name = not_empty("2/11\nFull name : ", "Full name cannot be empty!")
     dob = not_empty("3/11\nEnter Date Of Birth (dd-mm-yyyy) : ", "Date of Birth cannot be empty!")
-    gender = not_empty("4/11\nGender (F / M) : ", "Gender cannot be empty!") 
+    gender = not_empty("4/11\nGender (Female / Male) : ", "Gender cannot be empty!") 
     nationality = not_empty("5/11\nNationality (Zimbabwean) : ", "Nationality cannot be empty!")  
     phone = not_empty("6/11\nYour Phone number (263 00 000 0000): ", "Phone Number cannot be empty!")  
     address = not_empty("7/11\nEnter you physical address : ", "Address cannot be empty! ")  
@@ -146,37 +128,37 @@ def edit_record(dictionary,File):
 
             ###edit field
             if field == "1":
-                new = input("New Email: ")
+                new = valid_email(dictionary)
                 value[0] = new
             elif field == "2":
-                new = input("New Name: ")
+                new = not_empty("New Name : ","New Name Cannot be empty !" )
                 value[1] = new
             elif field == "3":
-                new = input("New Date Of Birth: ")
+                new = not_empty("New Date Of Birth: ","New Date Of Birth Cannot be empty !")
                 value[2] = new
             elif field == "4":
-                new = input("New Gender: ")
+                new = not_empty("New Gender: ","New Gender Cannot be empty !")
                 value[3] = new
             elif field == "5":
-                new = input("New Nationality: ")
+                new = not_empty("New Nationality: ", "New Nationality Cannot be empty !")
                 value[4] = new
             elif field == "6":
-                new = input("New Phone: ")
+                new = not_empty("New Phone: ","New Phone Cannot be empty !")
                 value[5] = new
             elif field == "7":
-                new = input("New Address: ")
+                new = not_empty("New Address: ","New Address Cannot be empty !")
                 value[6] = new
             elif field == "8":
-                new = input("New Emergency Contact: ")
+                new = not_empty("New Emergency Contact: ","New Emergency Cannot be empty !")
                 value[7] = new
             elif field == "9":
-                new = input("New Emergency Contact Phone: ")
+                new = not_empty("New Emergency Contact Phone: ","New Emergency Contact Cannot be empty !")
                 value[8] = new
             elif field == "10":
-                new = input("New School: ")
+                new = not_empty("New School: ","New School Cannot be empty !")
                 value[9] = new
             elif field == "11":
-                new = input("New Form: ")
+                new = not_empty("New Form: ","New Form Cannot be empty !")
                 value[10] = new
             else:
                 print("Invalid Option")
@@ -196,8 +178,8 @@ def edit_record(dictionary,File):
             print("Email not found") 
 
 def find_record(dictionary):
-    fount = False
-    while not fount:
+    found = False
+    while not found:
         email = input("Enter the student email :")
         if email in dictionary:
 
@@ -208,6 +190,6 @@ def find_record(dictionary):
         else:
             print("Email not found!")
             break
-
+        
 if __name__ == "__main__":
     main()

@@ -1,0 +1,13 @@
+started  jul 8 @ 2.04pm
+
+looked on how to sort dictionary
+ looked into lambda
+
+
+ started jul 8 @ 4.57pm
+
+loo more into this  pattern = r'[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$'
+
+looked int rregex expressions
+
+

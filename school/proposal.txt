@@ -1,0 +1,50 @@
+CSE 111 Proposal for a Student Chosen Program
+
+    (This is a proposal. All proposals are written with our best
+    knowledge at the beginning of a project. As we progress from the
+    beginning to the end of a project, we gain more knowledge, and we
+    change some of our proposed ideas. This is part of completing any
+    project and is fine.  However, we still must write a proposal so
+    that our teachers or supervisors know what we intend to do. Please
+    answer each of the following questions to the best of your
+    knowledge.)
+
+1. What is the title of your program?
+    School Management system
+
+2. What real-world problem will your program address or help to solve?
+
+    Now that we are moving into a digital error we will definitely need all of our records digitalized and we need programs that make it easier to manage our records. We can store information using many file types but the most flexible one is the .csv file. It is easy because you can just export or import in to google sheets, excel or an sql database. Managing a csv file is easier before it gets a lot of lines, this is were the problem begins. So to help counter that i will create a program that will store, delete,find,rewrite a csv file using the unique key(primary key) and records that will be imported into a sql database outside python.
+
+
+3. What will you learn from developing this program?
+    adding,deleting, editing, finding specific records, loops, condition statements, opening files
+    
+4. What Python modules will your program use?
+    datetime, math, pytest, random, csv
+    (Some examples are: csv, datetime, functools, matplotlib, math,
+    pandas, pytest, random, requests, and tkinter.)
+
+5. List the names of functions you will need?
+    add_user
+    find_user
+    delete_user
+    edit_user
+
+    (Remember that the most reusable functions don't get user input and
+    don't print results but instead have parameters and return a result.
+    Functions that get user input and print results are important and do
+    useful work but are not easily reusable.)
+
+    (Remember also that it's hard to test functions that get user input
+    and print results. It's easy to test functions that don't get user
+    input and don't print results but instead have parameters and return
+    a result. Therefore, you should write most of your program functions
+    to have parameters and return a result.)
+
+6. List the names of the test functions you will write.
+    test_find_user
+    test_delete_user
+    test_add_user
+
+

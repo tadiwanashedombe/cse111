@@ -21,7 +21,8 @@ doing any of the following:
 ----------  ----------  -------------------------
 2021-12-03      2.5     Wrote two program functions and two test functions
 2021-12-03      .5      Watched video on 
-=============Example====================
+
+===============Report====================
            Time Spent
    Date       (hours)   Description of Work
 ----------  ----------  -------------------------

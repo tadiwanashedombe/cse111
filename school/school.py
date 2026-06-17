@@ -186,9 +186,11 @@ def find_record(dictionary):
             value = dictionary[email]
             #show option
             print(f"\n1.Email : {value[0]}\n 2.Name : {value[1]}\n 3.Date Of Birth: {value[2]}\n 4.Gender : {value[3]}\n 5.Nationality : {value[4]}\n 6.Phone : {value[5]}\n 7.Address : {value[6]}\n 8.Emergency Contact : {value[7]}\n 9.Emergency Contact Phone : {value[8]}\n 10.School : {value[9]}\n 11.Form : {value[10]}")
+            return True
             break
         else:
             print("Email not found!")
+            return False
             break
         
 if __name__ == "__main__":

@@ -28,7 +28,14 @@ doing any of the following:
 ----------  ----------  -------------------------
 2026-06-04      .6      created and cleaned csv file with student records
 2026-06-08     1.183    created read_csv, show_records functions. Looked into sorting dictionary values in order
-
+2026-06-08      .5       looked into the regex expressions
+2026-06-09      3.3     created the add_students function (not yet finished), made the valid_email and not_empty functions to validate fields before adding to file
+2026-06-09      .75      looked into the open method and format files and more open modes, the write method.Finished the add students function
+2026-06-10       1.6     created the del_student function (complete)
+2026-06-10       2.8     created the edit_record, looked into clearing a file and rewriting new items to file
+2026-06-10       .6     created the find_record function
+2026-06-17      2.3     looked into unittest.mock module patch,builtins.input side_effect and return_value so that pytest automatically fills the input fields,tmp_path to create a temporary file to with the records,reading files with the read_text(), writing to files with the write_text(), capsys to capture terminal output since most of my functions do not return values
+2026-06-17      2   created pytest functions test_find_record, test_add_user, test_del_student
 
 2. In Canvas, submit this completed text file, your Python program, your
 Python test file, and any project data files such as .txt and .csv files and

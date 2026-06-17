@@ -1,6 +1,6 @@
 from school import find_record, del_student,add_student,read_csv
 import pytest
-from unittest.mock import patch, mock_open
+from unittest.mock import patch
 
 #create a pseudo record
 SAMPLE_DATA = {
@@ -17,7 +17,13 @@ def test_find_record(capsys):
     assert result is True
 
     capture = capsys.readouterr()
+    # 1st check
     assert "Tadiwa Dombe" in capture.out
+    # 2nd check
+    assert "Tadiwa Dombe" in capture.out
+
+
+
    
 # test_add_user
 def test_add_student(tmp_path):
@@ -42,8 +48,9 @@ def test_add_student(tmp_path):
         # read the file as a string
         result = records.read_text()
 
-        #check for email
+        # 1st check
         assert "dombe@gmail" in result
+        # 2nd check
         assert "Tadiwa Dombe" in result
 
 # test_delete_user
@@ -60,7 +67,11 @@ def test_del_student(tmp_path):
         del_student(dictionary, str(records))
 
         result = records.read_text()
+        #1st check
         assert "dombe@gmail.com" not in result
+        
+        #2nd check
+        assert "Tadiwa Dombe" not in result
 
 
 pytest.main(["-v", "--tb=line", "-rN", __file__]) 

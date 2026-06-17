@@ -1,61 +1,61 @@
-﻿email,full_name,dob,gender,nationality,phone,address,emergency_contact,emergency_phone,school,form,created_at
-tendai.mutasa@email.com,Tendai Mutasa,03-12-2008,male,Zimbabwean,263771234501,"12 Harare St, Harare",Grace Mutasa,263771234502,Harare High School,Form 3,1/15/24 8:00 PM
-chipo.moyo@email.com,Chipo Moyo,24-06-2007,female,Zimbabwean,263771234503,"45 Bulawayo Rd, Bulawayo",John Moyo,263771234504,Queens College,Form 4,1/15/24 8:04 PM
-blessing.nkomo@email.com,Blessing Nkomo,11-03-2008,male,Zimbabwean,263771234505,"7 Mzilikazi Ave, Bulawayo",Ruth Nkomo,263771234506,Bulawayo High School,Form 3,1/15/24 8:10 AM
-akosua.kofi@email.com,Akosua Kofi,19-02-2007,female,Ghanaian,233244123401,"23 Accra Rd, Accra",Peter Kofi,233244123402,Accra Academy,Form 4,1/15/24 8:15 PM
-kwame.asante@email.com,Kwame Asante,08-07-2009,male,Ghanaian,233244123403,"89 Kumasi Rd, Kumasi",Agnes Asante,233244123404,Kumasi High School,Form 2,1/15/24 8:19 PM
-aisha.babangida@email.com,Aisha Babangida,14-05-2008,female,Nigerian,234801234501,"34 Lagos Island, Lagos",Simon Babangida,234801234502,Lagos High School,Form 3,1/16/24 8:00 PM
-chukwuemeka.okeke@email.com,Chukwuemeka Okeke,30-12-2007,male,Nigerian,234801234503,"56 Enugu Rd, Enugu",Mary Okeke,234801234504,Enugu High School,Form 4,1/16/24 8:04 PM
-fatima.adeleke@email.com,Fatima Adeleke,22-04-2009,female,Nigerian,234801234505,"11 Abuja St, Abuja",Thomas Adeleke,234801234506,Abuja Model School,Form 2,1/16/24 8:10 AM
-sipho.nkosi@email.com,Sipho Nkosi,18-09-2008,male,South African,27721234501,"78 Soweto Rd, Johannesburg",Helen Nkosi,27721234502,Soweto High School,Form 3,1/16/24 8:15 PM
-nomvula.ndlovu@email.com,Nomvula Ndlovu,07-11-2007,female,South African,27721234503,"90 Cape Town Ave, Cape Town",David Ndlovu,27721234504,Cape High School,Form 4,1/16/24 8:19 AM
-thabo.dlamini@email.com,Thabo Dlamini,25-01-2008,male,South African,27721234505,"15 Durban Rd, Durban",Susan Dlamini,27721234506,Durban High School,Form 3,1/17/24 8:00 PM
-amara.mutombo@email.com,Amara Mutombo,10-09-2009,female,Congolese,243821234501,"62 Kinshasa Blvd, Kinshasa",James Mutombo,243821234502,Kinshasa Academy,Form 2,1/17/24 8:04 PM
-jean.kabila@email.com,Jean Kabila,16-03-2007,male,Congolese,243821234503,"28 Lubumbashi St, Lubumbashi",Joyce Kabila,243821234504,Lubumbashi High School,Form 4,1/17/24 8:10 AM
-ama.mensah@email.com,Ama Mensah,07-04-2008,female,Ghanaian,233244123405,"44 Takoradi Rd, Takoradi",Robert Mensah,233244123406,Takoradi High School,Form 3,1/17/24 8:15 PM
-oliver.mugisha@email.com,Oliver Mugisha,28-02-2009,male,Ugandan,256701234501,"5 Kampala Rd, Kampala",Anna Mugisha,256701234502,Kampala High School,Form 2,1/17/24 8:19 AM
-aisha.kabwegyere@email.com,Aisha Kabwegyere,20-11-2007,female,Ugandan,256701234503,"37 Entebbe Ave, Entebbe",Charles Kabwegyere,256701234504,Entebbe High School,Form 4,1/18/24 8:00 PM
-mary.wanjiku@email.com,Mary Wanjiku,13-06-2008,female,Kenyan,254701234501,"19 Nairobi Rd, Nairobi",Betty Wanjiku,254701234502,Nairobi High School,Form 3,1/18/24 8:04 AM
-brian.otieno@email.com,Brian Otieno,12-01-2009,male,Kenyan,254701234503,"71 Mombasa Rd, Mombasa",Frank Otieno,254701234504,Mombasa High School,Form 2,1/18/24 8:10 PM
-faith.kimani@email.com,Faith Kimani,17-08-2007,female,Kenyan,254701234505,"83 Kisumu Ave, Kisumu",Patricia Kimani,254701234506,Kisumu High School,Form 4,1/18/24 8:15 AM
-violet.kadungure@email.com,Violet Kadungure,04-05-2008,female,Zimbabwean,263771234519,"26 Chitungwiza Rd, Chitungwiza",George Kadungure,263771234520,Chitungwiza High School,Form 3,1/18/24 8:19 AM
-nathalie.tankeu@email.com,Nathalie Tankeu,23-09-2009,female,Cameroonian,237691234501,"14 Yaounde St, Yaounde",Henry Tankeu,237691234502,Yaounde High School,Form 2,1/19/24 8:00 AM
-pascal.nguema@email.com,Pascal Nguema,05-08-2007,male,Cameroonian,237691234503,"50 Douala Ave, Douala",Dorothy Nguema,237691234504,Douala High School,Form 4,1/19/24 8:04 PM
-rokhaya.diallo@email.com,Rokhaya Diallo,14-02-2008,female,Senegalese,221771234501,"67 Dakar Rd, Dakar",Isaac Diallo,221771234502,Dakar High School,Form 3,1/19/24 8:10 AM
-moussa.fall@email.com,Moussa Fall,30-07-2009,male,Senegalese,221771234503,"92 Thies St, Thies",Catherine Fall,221771234504,Thies High School,Form 2,1/19/24 8:15 AM
-eleni.haile@email.com,Eleni Haile,10-06-2007,female,Ethiopian,251911234501,"38 Addis Ababa Ave, Addis Ababa",Leonard Haile,251911234502,Addis Ababa High School,Form 4,1/19/24 8:19 AM
-yonas.tadesse@email.com,Yonas Tadesse,19-12-2008,male,Ethiopian,251911234503,"21 Dire Dawa Rd, Dire Dawa",Monica Tadesse,251911234504,Dire Dawa High School,Form 3,1/20/24 8:00 PM
-nardos.atnafu@email.com,Nardos Atnafu,03-11-2009,female,Ethiopian,251911234505,"55 Bahir Dar St, Bahir Dar",Patrick Atnafu,251911234506,Bahir Dar High School,Form 2,1/20/24 8:04 AM
-amadou.traore@email.com,Amadou Traore,27-09-2007,male,Malian,22371234501,"8 Bamako Ave, Bamako",Eunice Traore,22371234502,Bamako High School,Form 4,1/20/24 8:10 PM
-fatoumata.coulibaly@email.com,Fatoumata Coulibaly,15-08-2008,female,Malian,22371234503,"43 Sikasso Rd, Sikasso",Florence Coulibaly,22371234504,Sikasso High School,Form 3,1/20/24 8:15 AM
-joy.zivangwe@email.com,Joy Zivangwe,05-02-2009,female,Zimbabwean,263771234559,"76 Magwegwe St, Bulawayo",Samuel Zivangwe,263771234560,Magwegwe High School,Form 2,1/20/24 8:19 PM
-comfort.awuah@email.com,Comfort Awuah,18-04-2007,female,Ghanaian,233244123407,"32 Tamale Rd, Tamale",Josephine Awuah,233244123408,Tamale High School,Form 4,1/21/24 8:00 PM
-ibrahim.makinde@email.com,Ibrahim Makinde,31-10-2008,male,Nigerian,234801234507,"65 Ibadan Rd, Ibadan",Emmanuel Makinde,234801234508,Ibadan High School,Form 3,1/21/24 8:04 PM
-ngozi.chinonso@email.com,Ngozi Chinonso,01-07-2009,female,Nigerian,234801234509,"17 Port Harcourt St, Port Harcourt",Rebecca Chinonso,234801234510,Port Harcourt High School,Form 2,1/21/24 8:10 AM
-lydia.mukasa@email.com,Lydia Mukasa,23-07-2007,female,Ugandan,256701234505,"49 Jinja Ave, Jinja",Kenneth Mukasa,256701234506,Jinja High School,Form 4,1/21/24 8:15 PM
-david.kiprotich@email.com,David Kiprotich,03-09-2008,male,Kenyan,254701234507,"81 Nakuru Rd, Nakuru",Loveness Kiprotich,254701234508,Nakuru High School,Form 3,1/21/24 8:19 PM
-iris.mbeki@email.com,Iris Mbeki,16-11-2009,female,South African,27721234507,"6 Pretoria St, Pretoria",Nicholas Mbeki,27721234508,Pretoria High School,Form 2,1/22/24 8:00 AM
-george.zuma@email.com,George Zuma,06-04-2007,male,South African,27721234509,"59 Bloemfontein Ave, Bloemfontein",Veronica Zuma,27721234510,Bloemfontein High School,Form 4,1/22/24 8:04 AM
-tendai.mutsvairo@email.com,Tendai Mutsvairo,21-09-2008,female,Zimbabwean,263771234575,"93 Mount Pleasant Rd, Harare",Aleck Mutsvairo,263771234576,Mount Pleasant High School,Form 3,1/22/24 8:10 PM
-abena.botchwey@email.com,Abena Botchwey,14-04-2009,female,Ghanaian,233244123409,"27 Cape Coast Rd, Cape Coast",Edith Botchwey,233244123410,Cape Coast High School,Form 2,1/22/24 8:15 AM
-chukwudi.onyekachi@email.com,Chukwudi Onyekachi,12-02-2007,male,Nigerian,234801234511,"41 Kano Rd, Kano",Francis Onyekachi,234801234512,Kano High School,Form 4,1/22/24 8:19 PM
-ruth.kamau@email.com,Ruth Kamau,19-07-2008,female,Kenyan,254701234509,"73 Eldoret Rd, Eldoret",Gilbert Kamau,254701234510,Eldoret High School,Form 3,1/23/24 8:00 PM
-abdirahman.babar@email.com,Abdirahman Babar,02-05-2009,male,Tanzanian,255691234501,"16 Dar es Salaam St, Dar es Salaam",Hannah Babar,255691234502,Dar es Salaam High School,Form 2,1/23/24 8:04 AM
-neema.mkwawa@email.com,Neema Mkwawa,28-05-2007,female,Tanzanian,255691234503,"88 Dodoma Rd, Dodoma",Jonathan Mkwawa,255691234504,Dodoma High School,Form 4,1/23/24 8:10 AM
-elias.mkapa@email.com,Elias Mkapa,11-10-2008,male,Tanzanian,255691234505,"30 Arusha St, Arusha",Martha Mkapa,255691234506,Arusha High School,Form 3,1/23/24 8:15 AM
-patricia.bandawe@email.com,Patricia Bandawe,26-08-2009,female,Malawian,265991234501,"63 Lilongwe Rd, Lilongwe",Victor Bandawe,265991234502,Lilongwe High School,Form 2,1/23/24 8:19 PM
-charles.chilumba@email.com,Charles Chilumba,13-03-2007,male,Malawian,265991234503,"22 Blantyre St, Blantyre",Winnie Chilumba,265991234504,Blantyre High School,Form 4,1/24/24 8:00 AM
-agness.mwale@email.com,Agness Mwale,29-06-2008,female,Zambian,260971234501,"47 Lusaka Rd, Lusaka",Oscar Mwale,260971234502,Lusaka High School,Form 3,1/24/24 8:04 AM
-mutale.mumba@email.com,Mutale Mumba,17-12-2009,male,Zambian,260971234503,"84 Ndola St, Ndola",Priscilla Mumba,260971234504,Ndola High School,Form 2,1/24/24 8:10 PM
-luyando.chansa@email.com,Luyando Chansa,09-04-2007,female,Zambian,260971234505,"9 Kitwe Ave, Kitwe",Rodney Chansa,260971234506,Kitwe High School,Form 4,1/24/24 8:15 PM
-thato.mokhele@email.com,Thato Mokhele,20-04-2008,male,Motswana,26771234501,"53 Gaborone Rd, Gaborone",Sylvia Mokhele,26771234502,Gaborone High School,Form 3,1/24/24 8:19 PM
-kefilwe.modise@email.com,Kefilwe Modise,10-03-2009,female,Motswana,26771234503,"79 Francistown Ave, Francistown",Anthony Modise,26771234504,Francistown High School,Form 2,1/25/24 8:00 AM
-daud.ramadhani@email.com,Daud Ramadhani,21-01-2007,male,Mozambican,258841234501,"35 Maputo St, Maputo",Diana Ramadhani,258841234502,Maputo High School,Form 4,1/25/24 8:04 AM
-lurdes.machava@email.com,Lurdes Machava,08-08-2008,female,Mozambican,258841234503,"68 Beira Rd, Beira",Edward Machava,258841234504,Beira High School,Form 3,1/25/24 8:10 AM
-nokukhanya.chirwa@email.com,Nokukhanya Chirwa,24-05-2009,female,Swazi,26876234501,"20 Mbabane Ave, Mbabane",Gloria Chirwa,26876234502,Mbabane High School,Form 2,1/25/24 8:15 PM
-royal.masuku@email.com,Royal Masuku,11-07-2007,male,Swazi,26876234503,"57 Manzini Rd, Manzini",Howard Masuku,26876234504,Manzini High School,Form 4,1/25/24 8:19 AM
-flora.sefolosha@email.com,Flora Sefolosha,23-02-2008,female,Lesothan,26650234501,"91 Maseru Rd, Maseru",Irene Sefolosha,26650234502,Maseru High School,Form 3,1/26/24 8:00 AM
-pitso.laosa@email.com,Pitso Laosa,07-10-2009,male,Lesothan,26650234503,"13 Leribe St, Leribe",Kevin Laosa,26650234504,Leribe High School,Form 2,1/26/24 8:04 PM
-nyasha.chirinda@email.com,Nyasha Chirinda,26-04-2007,female,Zimbabwean,263771234615,"46 Mutare Rd, Mutare",Laura Chirinda,263771234616,Mutare High School,Form 4,1/26/24 8:10 PM
-olusegun.adeyemi@email.com,Olusegun Adeyemi,12-12-2008,male,Nigerian,234801234513,"69 Kaduna Rd, Kaduna",Martin Adeyemi,234801234514,Kaduna High School,Form 3,1/26/24 8:15 PM
-elton.mwaramba@email.com,Elton Mwaramba,19-06-2009,male,Zimbabwean,263771234619,"25 Rushinga Rd, Rushinga",Naomi Mwaramba,263771234620,Rushinga High School,Form 2,1/26/24 8:19 PM
+email,full_name,dob,gender,nationality,phone,address,emergency_contact,emergency_phone,school,form,created_at
+tendai.mutasa@email.com,    Tendai Mutasa,    03-12-2008,    male,    Zimbabwean,    263771234501,    12 Harare St,    Harare,    Grace Mutasa,    263771234502,    Harare High School,    Form 3
+chipo.moyo@email.com,    Chipo Moyo,    24-06-2007,    female,    Zimbabwean,    263771234503,    45 Bulawayo Rd,    Bulawayo,    John Moyo,    263771234504,    Queens College,    Form 4
+blessing.nkomo@email.com,    Blessing Nkomo,    11-03-2008,    male,    Zimbabwean,    263771234505,    7 Mzilikazi Ave,    Bulawayo,    Ruth Nkomo,    263771234506,    Bulawayo High School,    Form 3
+akosua.kofi@email.com,    Akosua Kofi,    19-02-2007,    female,    Ghanaian,    233244123401,    23 Accra Rd,    Accra,    Peter Kofi,    233244123402,    Accra Academy,    Form 4
+kwame.asante@email.com,    Kwame Asante,    08-07-2009,    male,    Ghanaian,    233244123403,    89 Kumasi Rd,    Kumasi,    Agnes Asante,    233244123404,    Kumasi High School,    Form 2
+aisha.babangida@email.com,    Aisha Babangida,    14-05-2008,    female,    Nigerian,    234801234501,    34 Lagos Island,    Lagos,    Simon Babangida,    234801234502,    Lagos High School,    Form 3
+chukwuemeka.okeke@email.com,    Chukwuemeka Okeke,    30-12-2007,    male,    Nigerian,    234801234503,    56 Enugu Rd,    Enugu,    Mary Okeke,    234801234504,    Enugu High School,    Form 4
+fatima.adeleke@email.com,    Fatima Adeleke,    22-04-2009,    female,    Nigerian,    234801234505,    11 Abuja St,    Abuja,    Thomas Adeleke,    234801234506,    Abuja Model School,    Form 2
+sipho.nkosi@email.com,    Sipho Nkosi,    18-09-2008,    male,    South African,    27721234501,    78 Soweto Rd,    Johannesburg,    Helen Nkosi,    27721234502,    Soweto High School,    Form 3
+nomvula.ndlovu@email.com,    Nomvula Ndlovu,    07-11-2007,    female,    South African,    27721234503,    90 Cape Town Ave,    Cape Town,    David Ndlovu,    27721234504,    Cape High School,    Form 4
+thabo.dlamini@email.com,    Thabo Dlamini,    25-01-2008,    male,    South African,    27721234505,    15 Durban Rd,    Durban,    Susan Dlamini,    27721234506,    Durban High School,    Form 3
+amara.mutombo@email.com,    Amara Mutombo,    10-09-2009,    female,    Congolese,    243821234501,    62 Kinshasa Blvd,    Kinshasa,    James Mutombo,    243821234502,    Kinshasa Academy,    Form 2
+jean.kabila@email.com,    Jean Kabila,    16-03-2007,    male,    Congolese,    243821234503,    28 Lubumbashi St,    Lubumbashi,    Joyce Kabila,    243821234504,    Lubumbashi High School,    Form 4
+ama.mensah@email.com,    Ama Mensah,    07-04-2008,    female,    Ghanaian,    233244123405,    44 Takoradi Rd,    Takoradi,    Robert Mensah,    233244123406,    Takoradi High School,    Form 3
+oliver.mugisha@email.com,    Oliver Mugisha,    28-02-2009,    male,    Ugandan,    256701234501,    5 Kampala Rd,    Kampala,    Anna Mugisha,    256701234502,    Kampala High School,    Form 2
+aisha.kabwegyere@email.com,    Aisha Kabwegyere,    20-11-2007,    female,    Ugandan,    256701234503,    37 Entebbe Ave,    Entebbe,    Charles Kabwegyere,    256701234504,    Entebbe High School,    Form 4
+mary.wanjiku@email.com,    Mary Wanjiku,    13-06-2008,    female,    Kenyan,    254701234501,    19 Nairobi Rd,    Nairobi,    Betty Wanjiku,    254701234502,    Nairobi High School,    Form 3
+brian.otieno@email.com,    Brian Otieno,    12-01-2009,    male,    Kenyan,    254701234503,    71 Mombasa Rd,    Mombasa,    Frank Otieno,    254701234504,    Mombasa High School,    Form 2
+faith.kimani@email.com,    Faith Kimani,    17-08-2007,    female,    Kenyan,    254701234505,    83 Kisumu Ave,    Kisumu,    Patricia Kimani,    254701234506,    Kisumu High School,    Form 4
+violet.kadungure@email.com,    Violet Kadungure,    04-05-2008,    female,    Zimbabwean,    263771234519,    26 Chitungwiza Rd,    Chitungwiza,    George Kadungure,    263771234520,    Chitungwiza High School,    Form 3
+nathalie.tankeu@email.com,    Nathalie Tankeu,    23-09-2009,    female,    Cameroonian,    237691234501,    14 Yaounde St,    Yaounde,    Henry Tankeu,    237691234502,    Yaounde High School,    Form 2
+pascal.nguema@email.com,    Pascal Nguema,    05-08-2007,    male,    Cameroonian,    237691234503,    50 Douala Ave,    Douala,    Dorothy Nguema,    237691234504,    Douala High School,    Form 4
+rokhaya.diallo@email.com,    Rokhaya Diallo,    14-02-2008,    female,    Senegalese,    221771234501,    67 Dakar Rd,    Dakar,    Isaac Diallo,    221771234502,    Dakar High School,    Form 3
+moussa.fall@email.com,    Moussa Fall,    30-07-2009,    male,    Senegalese,    221771234503,    92 Thies St,    Thies,    Catherine Fall,    221771234504,    Thies High School,    Form 2
+eleni.haile@email.com,    Eleni Haile,    10-06-2007,    female,    Ethiopian,    251911234501,    38 Addis Ababa Ave,    Addis Ababa,    Leonard Haile,    251911234502,    Addis Ababa High School,    Form 4
+yonas.tadesse@email.com,    Yonas Tadesse,    19-12-2008,    male,    Ethiopian,    251911234503,    21 Dire Dawa Rd,    Dire Dawa,    Monica Tadesse,    251911234504,    Dire Dawa High School,    Form 3
+nardos.atnafu@email.com,    Nardos Atnafu,    03-11-2009,    female,    Ethiopian,    251911234505,    55 Bahir Dar St,    Bahir Dar,    Patrick Atnafu,    251911234506,    Bahir Dar High School,    Form 2
+amadou.traore@email.com,    Amadou Traore,    27-09-2007,    male,    Malian,    22371234501,    8 Bamako Ave,    Bamako,    Eunice Traore,    22371234502,    Bamako High School,    Form 4
+fatoumata.coulibaly@email.com,    Fatoumata Coulibaly,    15-08-2008,    female,    Malian,    22371234503,    43 Sikasso Rd,    Sikasso,    Florence Coulibaly,    22371234504,    Sikasso High School,    Form 3
+joy.zivangwe@email.com,    Joy Zivangwe,    05-02-2009,    female,    Zimbabwean,    263771234559,    76 Magwegwe St,    Bulawayo,    Samuel Zivangwe,    263771234560,    Magwegwe High School,    Form 2
+comfort.awuah@email.com,    Comfort Awuah,    18-04-2007,    female,    Ghanaian,    233244123407,    32 Tamale Rd,    Tamale,    Josephine Awuah,    233244123408,    Tamale High School,    Form 4
+ibrahim.makinde@email.com,    Ibrahim Makinde,    31-10-2008,    male,    Nigerian,    234801234507,    65 Ibadan Rd,    Ibadan,    Emmanuel Makinde,    234801234508,    Ibadan High School,    Form 3
+ngozi.chinonso@email.com,    Ngozi Chinonso,    01-07-2009,    female,    Nigerian,    234801234509,    17 Port Harcourt St,    Port Harcourt,    Rebecca Chinonso,    234801234510,    Port Harcourt High School,    Form 2
+lydia.mukasa@email.com,    Lydia Mukasa,    23-07-2007,    female,    Ugandan,    256701234505,    49 Jinja Ave,    Jinja,    Kenneth Mukasa,    256701234506,    Jinja High School,    Form 4
+david.kiprotich@email.com,    David Kiprotich,    03-09-2008,    male,    Kenyan,    254701234507,    81 Nakuru Rd,    Nakuru,    Loveness Kiprotich,    254701234508,    Nakuru High School,    Form 3
+iris.mbeki@email.com,    Iris Mbeki,    16-11-2009,    female,    South African,    27721234507,    6 Pretoria St,    Pretoria,    Nicholas Mbeki,    27721234508,    Pretoria High School,    Form 2
+george.zuma@email.com,    George Zuma,    06-04-2007,    male,    South African,    27721234509,    59 Bloemfontein Ave,    Bloemfontein,    Veronica Zuma,    27721234510,    Bloemfontein High School,    Form 4
+tendai.mutsvairo@email.com,    Tendai Mutsvairo,    21-09-2008,    female,    Zimbabwean,    263771234575,    93 Mount Pleasant Rd,    Harare,    Aleck Mutsvairo,    263771234576,    Mount Pleasant High School,    Form 3
+abena.botchwey@email.com,    Abena Botchwey,    14-04-2009,    female,    Ghanaian,    233244123409,    27 Cape Coast Rd,    Cape Coast,    Edith Botchwey,    233244123410,    Cape Coast High School,    Form 2
+chukwudi.onyekachi@email.com,    Chukwudi Onyekachi,    12-02-2007,    male,    Nigerian,    234801234511,    41 Kano Rd,    Kano,    Francis Onyekachi,    234801234512,    Kano High School,    Form 4
+ruth.kamau@email.com,    Ruth Kamau,    19-07-2008,    female,    Kenyan,    254701234509,    73 Eldoret Rd,    Eldoret,    Gilbert Kamau,    254701234510,    Eldoret High School,    Form 3
+abdirahman.babar@email.com,    Abdirahman Babar,    02-05-2009,    male,    Tanzanian,    255691234501,    16 Dar es Salaam St,    Dar es Salaam,    Hannah Babar,    255691234502,    Dar es Salaam High School,    Form 2
+neema.mkwawa@email.com,    Neema Mkwawa,    28-05-2007,    female,    Tanzanian,    255691234503,    88 Dodoma Rd,    Dodoma,    Jonathan Mkwawa,    255691234504,    Dodoma High School,    Form 4
+elias.mkapa@email.com,    Elias Mkapa,    11-10-2008,    male,    Tanzanian,    255691234505,    30 Arusha St,    Arusha,    Martha Mkapa,    255691234506,    Arusha High School,    Form 3
+patricia.bandawe@email.com,    Patricia Bandawe,    26-08-2009,    female,    Malawian,    265991234501,    63 Lilongwe Rd,    Lilongwe,    Victor Bandawe,    265991234502,    Lilongwe High School,    Form 2
+charles.chilumba@email.com,    Charles Chilumba,    13-03-2007,    male,    Malawian,    265991234503,    22 Blantyre St,    Blantyre,    Winnie Chilumba,    265991234504,    Blantyre High School,    Form 4
+agness.mwale@email.com,    Agness Mwale,    29-06-2008,    female,    Zambian,    260971234501,    47 Lusaka Rd,    Lusaka,    Oscar Mwale,    260971234502,    Lusaka High School,    Form 3
+mutale.mumba@email.com,    Mutale Mumba,    17-12-2009,    male,    Zambian,    260971234503,    84 Ndola St,    Ndola,    Priscilla Mumba,    260971234504,    Ndola High School,    Form 2
+luyando.chansa@email.com,    Luyando Chansa,    09-04-2007,    female,    Zambian,    260971234505,    9 Kitwe Ave,    Kitwe,    Rodney Chansa,    260971234506,    Kitwe High School,    Form 4
+thato.mokhele@email.com,    Thato Mokhele,    20-04-2008,    male,    Motswana,    26771234501,    53 Gaborone Rd,    Gaborone,    Sylvia Mokhele,    26771234502,    Gaborone High School,    Form 3
+kefilwe.modise@email.com,    Kefilwe Modise,    10-03-2009,    female,    Motswana,    26771234503,    79 Francistown Ave,    Francistown,    Anthony Modise,    26771234504,    Francistown High School,    Form 2
+daud.ramadhani@email.com,    Daud Ramadhani,    21-01-2007,    male,    Mozambican,    258841234501,    35 Maputo St,    Maputo,    Diana Ramadhani,    258841234502,    Maputo High School,    Form 4
+lurdes.machava@email.com,    Lurdes Machava,    08-08-2008,    female,    Mozambican,    258841234503,    68 Beira Rd,    Beira,    Edward Machava,    258841234504,    Beira High School,    Form 3
+nokukhanya.chirwa@email.com,    Nokukhanya Chirwa,    24-05-2009,    female,    Swazi,    26876234501,    20 Mbabane Ave,    Mbabane,    Gloria Chirwa,    26876234502,    Mbabane High School,    Form 2
+royal.masuku@email.com,    Royal Masuku,    11-07-2007,    male,    Swazi,    26876234503,    57 Manzini Rd,    Manzini,    Howard Masuku,    26876234504,    Manzini High School,    Form 4
+flora.sefolosha@email.com,    Flora Sefolosha,    23-02-2008,    female,    Lesothan,    26650234501,    91 Maseru Rd,    Maseru,    Irene Sefolosha,    26650234502,    Maseru High School,    Form 3
+pitso.laosa@email.com,    Pitso Laosa,    07-10-2009,    male,    Lesothan,    26650234503,    13 Leribe St,    Leribe,    Kevin Laosa,    26650234504,    Leribe High School,    Form 2
+nyasha.chirinda@email.com,    Nyasha Chirinda,    26-04-2007,    female,    Zimbabwean,    263771234615,    46 Mutare Rd,    Mutare,    Laura Chirinda,    263771234616,    Mutare High School,    Form 4
+olusegun.adeyemi@email.com,    Olusegun Adeyemi,    12-12-2008,    male,    Nigerian,    234801234513,    69 Kaduna Rd,    Kaduna,    Martin Adeyemi,    234801234514,    Kaduna High School,    Form 3
+elton.mwaramba@email.com,    Elton Mwaramba,    19-06-2009,    male,    Zimbabwean,    263771234619,  54 rusvin,    Rushinga,    Naomi Mwaramba,    263771234620,    Rushinga High School,    Form 2

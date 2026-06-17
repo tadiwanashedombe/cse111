@@ -82,7 +82,10 @@ def add_student(dictionary, file):
     gender = not_empty("4/11\nGender (Female / Male) : ", "Gender cannot be empty!") 
     nationality = not_empty("5/11\nNationality (Zimbabwean) : ", "Nationality cannot be empty!")  
     phone = not_empty("6/11\nYour Phone number (263 00 000 0000): ", "Phone Number cannot be empty!")  
+
     address = not_empty("7/11\nEnter you physical address : ", "Address cannot be empty! ")  
+    while "," in address:
+        address = not_empty("New Address Cannot have comma ! ","New Address Cannot have comma !")
     emergency_contact = not_empty("8/11\nName of Emergency Contact : ", "Emergency contact name cannot be empty!") 
     emergency_phone = not_empty("9/11\nEmergency Contact Phone number : ", "Emergency Contact Phone number cannot be empty")  
     school  =  not_empty("10/11\nSchool Name: " , "School cannot be empty!")
@@ -147,6 +150,8 @@ def edit_record(dictionary,File):
                 value[5] = new
             elif field == "7":
                 new = not_empty("New Address: ","New Address Cannot be empty !")
+                while "," in new:
+                    new = not_empty("New Address Cannot have comma ! ","New Address Cannot have comma !")
                 value[6] = new
             elif field == "8":
                 new = not_empty("New Emergency Contact: ","New Emergency Cannot be empty !")

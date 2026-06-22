@@ -11,3 +11,8 @@ loo more into this  pattern = r'[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$'
 looked int rregex expressions
 
 
+looked into unittest.mock module, patch method
+looked into capsys a pytest module
+looked into tmp_path
+looked into side_effect and return_value
+
